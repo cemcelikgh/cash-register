@@ -1,0 +1,19 @@
+<!--!
+Original fcc_primary_small SVG
+https://design-style-guide.freecodecamp.org/
+
+Rearrange
+https://github.com/cemcelikgh
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" version="1.1" viewBox="0 0 420 420">
+  <defs>
+    <path id="a8LR3SBcZL" d="M269.42 217.9 C249.49 212.81 331.27 116.19 185.92 0.51 C185.92 0.51 204.99 61.1 108.83 196.31 C12.62 331.47 151.61 411.99 151.61 411.99 C151.61 411.99 86.38 377.23 162.21 253.47 C175.78 231.02 193.54 210.69 215.59 164.93 C215.59 164.93 235.11 192.48 224.92 252.21 C209.68 342.47 291.01 316.64 292.27 317.9 C320.68 351.35 268.74 410.14 265.58 411.99 C262.43 413.79 413.91 320.87 306.29 181.03 C298.92 188.4 289.34 223 269.42 217.9"/>
+  </defs>
+  <g>
+    <use fill="#f1e05a" fill-opacity="1" opacity="1" xlink:href="#a8LR3SBcZL"/>
+    <g>
+      <use fill-opacity="0" stroke="#000" stroke-opacity="0" stroke-width="1" opacity="1" xlink:href="#a8LR3SBcZL"/>
+    </g>
+  </g>
+</svg>

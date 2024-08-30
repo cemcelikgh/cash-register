@@ -1,8 +1,7 @@
-# cash_register-freecodecamp
-JavaScript Algorithms and Data Structures Certification Project<br>
-Cash Register<br>
-A cash register web app
+# cash-register
+freeCodeCamp JavaScript Algorithms and Data Structures Certification Project
+<br>Cash Register
 
-[freeCodeCamp](https://www.freecodecamp.org/learn "Earn free verified certifications with freeCodeCamp's core curriculum")
+Browse: <https://cemcelikgh.github.io/cash-register/>
 
-![Telephone Number Validator](./cash-register.jpg)
+[![Cash Register Preview](./assets/cash-register-preview.jpg "Browse Cash Register")](https://cemcelikgh.github.io/cash-register/)
