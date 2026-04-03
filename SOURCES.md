@@ -1,4 +1,4 @@
-cashier-machine-cashier-svgrepo-com.svg
+cash-register.svg
 <br>Jul 2024
 <br><https://www.svgrepo.com/svg/205788/cashier-machine-cashier>
 
