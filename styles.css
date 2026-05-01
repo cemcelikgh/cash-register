@@ -1,16 +1,15 @@
+:root {
+  --display-green: #38371c;
+  --writing-white: #edf2f4;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  --display-green: #38371c;
-  --writing-white: #EDF2F4;
-}
-
 body {
-  min-width: 520px;
   background-color: #445f08;
 }
 
@@ -27,16 +26,11 @@ h1 {
   color: var(--writing-white);
 }
 
-#change-due {
-  text-align: left;
-  font-size: 1.2rem;
-}
-
 .container {
   width: 500px;
   height: 500px;
-  margin-top: 40px;
-  background-image: url('./assets/cashier-machine-cashier-svgrepo-com.svg');
+  margin-top: 60px;
+  background-image: url('./assets/cash-register.svg');
   background-repeat: no-repeat;
   position: relative;
 }
@@ -106,7 +100,7 @@ label {
   font-size: 17px;
 }
 
-#cash-drawer-display>p {
+#cash-drawer-display > p {
   position: absolute;
   top: 7px;
   left: 60px;
@@ -134,8 +128,29 @@ label {
   height: 105px;
 }
 
+@media (width <= 500px) {
+  #drawer-left p:last-of-type {
+    font-size: 16px;
+  }
+  #drawer-left p:last-of-type span {
+    font-size: 17px;
+  }
+  #drawer-right p:last-of-type {
+    font-size: 16px;
+  }
+  #drawer-right p:last-of-type span {
+    font-size: 17px;
+  }
+}
+
 #change-due {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#change-due p {
   text-align: left;
   font-size: 1.2rem;
   color: var(--writing-white);
