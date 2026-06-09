@@ -65,7 +65,7 @@ class CashRegister {
             for (let k = 8; k > -1; k--) {
               if (cid[k][1] - mid[k] > 0) {
                 changeDue.innerHTML += `<p>${cid[k][0]}: $${parseFloat((cid[k][1] - mid[k]).toFixed(2))}</p>`;
-                drawerDisplay[k].textContent = `${cid[k][1]}`;
+                drawerDisplay[k].textContent = `$${cid[k][1]}`;
               }
             }
             if (this.totalCidAmount(mid) === 0) {
